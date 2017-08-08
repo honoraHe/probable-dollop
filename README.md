@@ -69,3 +69,4 @@ npm run start        使用webpack构建本地服务器，基于webpack.config.js
 
 
 webpack构建本地服务器
+contentBase：默认webpack-dev-server会为根文件夹提供本地服务器，如果想为另外一个目录下的文件提供本地服务器，应该在这里设置其所在目录
