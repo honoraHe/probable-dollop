@@ -1,0 +1,36 @@
+/* 
+* @Author: zhangjw
+* @Date:   2017-05-31 17:54:01
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-06-01 12:33:45
+*/
+html{
+    font-size: 100px;
+    font-size: calc(100vw/6.4);
+}
+.pic-box{
+   position: relative; 
+}
+img{
+    width: 100%;
+}
+.luck-pic{
+    margin: -0.0027rem 0 0 0;
+}
+.btn-box{
+    position: absolute;
+    top:35.59rem;
+    left:0.66rem;
+    width:5.04rem;
+    height: 0.86rem;
+    text-align: center;
+    line-height: 0.86rem;
+    color: #fff;
+    border-radius: 0.35rem;
+    background: #e722a7;
+    font-size: 0.55rem;
+    box-shadow:-10px 0 10px rgba(153,74,190,0.5),
+    10px 0 10px rgba(153,74,190,0.5),
+    0 -10px 10px rgba(153,74,190,0.5),
+    0 10px 10px rgba(153,74,190,0.5);
+}

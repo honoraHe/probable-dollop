@@ -1,0 +1,28 @@
+/* 
+* @Author: anchen
+* @Date:   2017-05-03 18:21:08
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-05-05 14:43:14
+*/
+.jumpTo{position:fixed;width:100%;height:100%;top:0px;left:0px;z-index:88}
+header{position: relative;margin-bottom: 0.1875rem;}
+header img{width: 100%;height: auto;}
+header .btnBox{position:absolute;top:0.14375rem;right: 0.78125rem;width: 2.90625rem;height: 0.828125rem;}
+header .icon{position: absolute;top:1.1rem;right: 1.75rem;width: 1rem;height: 1rem;}
+.main ul li{width: 100%;height: auto;padding:0.40625rem 0;border-bottom: 1px #e7e7e7 solid;}
+.main ul li img{width:100%;height:auto;}
+.main ul li:last-child{border-bottom: none;}
+.downBtn{ display:block; width: 92%; margin: 0.15625rem auto; height: 1.15625rem; line-height: 1.15625rem; background: #57A7F2; border-radius: 0.078125rem; color: #fff; text-align: center;font-size: 0.4375rem;}
+.com-name{padding: 0.3125rem 0 0.625rem 0;font:normal normal 0.34375rem/0.34375rem "微软雅黑"; text-align: center;color: #000;}
+
+
+
+
+
+
+
+
+
+
+
+

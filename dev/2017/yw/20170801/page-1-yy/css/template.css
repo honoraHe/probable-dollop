@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background: url(../images/bg.jpg) left bottom no-repeat #fff; background-size: 100%;}
+.pic{ display: block; width: 100%;}
+.font{ display: block; width: 60%; margin: 10px auto;}
+.logo{ width: 30%; }
+.btn{ display: block; width: 80%; margin: 10px auto;}
+.font2{ width: 70%;}
+.font3{ width: 80%;}

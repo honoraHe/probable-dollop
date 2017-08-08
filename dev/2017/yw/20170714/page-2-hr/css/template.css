@@ -1,0 +1,40 @@
+/* 
+* @Author: zhangjw
+* @Date:   2017-05-31 17:54:01
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-06-01 14:53:21
+*/
+html{
+    font-size: 100px;
+    font-size: calc(100vw/6.4);
+}
+img{
+    width: 100%;
+}
+.body-bg{
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    width: 6.4rem;
+    height: 12rem;
+}
+.user-pic{
+    position:absolute;
+    top:3.25rem;
+    left:0.3rem; 
+    width: 6.16rem;
+}
+.down-btn{
+    position: absolute;
+    top:9.76rem;
+    left:1.8rem;
+    width: 2.8rem;
+    height: 1rem;
+    text-align: center;
+    line-height:1rem;
+    color: #fff;
+    border-radius:0.2rem;
+    background: #a204e4;
+    font-size: 0.44rem;
+    box-shadow:0 10px 10px rgba(99,82,167,0.5);
+}

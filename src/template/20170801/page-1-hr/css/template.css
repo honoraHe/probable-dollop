@@ -1,0 +1,75 @@
+/* 
+* @Author: zhangjw
+* @Date:   2017-05-31 17:54:01
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-07-18 11:04:00
+*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 64px;
+    font-size: calc(100vw/6.4)
+}
+li{
+    list-style-type: none;
+}
+#jumpTo{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:999;
+}
+
+.null-box{
+    height: 4.92rem;
+}
+.page-link{
+    height:100%;
+    width:100%;
+    position:fixed;
+    left:0px;
+    top:0px;
+    display:block;
+    z-index: 100;
+}
+.img-box .belle-pic{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 6.14rem;
+    width: 100%;
+    z-index: 99;
+}
+.content-box{
+    position: absolute;
+    top:4.92rem;
+    height:7.08rem;
+    width: 100%;
+    background: url(../images/bg-footer_02.png) no-repeat;
+    background-size: 100%;
+}
+.text-box{
+    position: absolute;
+    left: 0.72rem;
+    top:1.32rem;
+    
+}
+.text-box .text-pic{
+    width: 4.92rem;
+    height: 4.4rem;
+}
+.btn-box{
+    position: absolute;
+    left:0.72rem;
+    top:5.9rem;
+    
+}
+.btn-box .btn-load{
+    height: 0.82rem;
+    width: 4.98rem;
+}

@@ -1,0 +1,59 @@
+/* 
+* @Author: zhangjw
+* @Date:   2017-05-31 17:54:01
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-07-14 14:45:46
+*/
+html{
+    font-size: 100px;
+    font-size: calc(100vw/6.4);
+}
+img{
+    width: 100%;
+}
+.top-box{
+    height: 12rem;
+    position: relative;
+    background: url(../images/bg_top.jpg) no-repeat;
+    background-size: 100%;
+}
+.title-top{
+    position: absolute;
+    top:0.9rem;
+    left:0.3rem;
+    width: 5.82rem;
+}
+.girl-top{
+    position: absolute;
+    top:5.64rem;
+    left:0;
+    width:6.4rem;
+}
+.bottom-box{
+    height: 11.93rem;
+    position: relative;
+    background: url(../images/bg_bottom.jpg) no-repeat;
+    background-size: 100%;
+}
+.user-box{
+    position: absolute;
+    top:0;
+    left:0.2rem;
+    width:6rem;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap:wrap;
+}
+.common-list{
+    width:49%;
+    margin-bottom:0.1rem;
+}
+.common-list:nth-child(odd){
+    margin: 0 0.1rem 0 0;
+}
+.btn-box{
+    position: absolute;
+    top:9.5rem;
+    left:1.15rem;
+    width: 4.05rem;
+}

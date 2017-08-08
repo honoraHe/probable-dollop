@@ -1,0 +1,63 @@
+/* 
+* @Author: zhangjw
+* @Date:   2017-05-31 17:54:01
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-07-05 16:59:10
+*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100px;
+    font-size: calc(100vw/6.4)
+}
+li{
+    list-style-type: none;
+}
+body {
+    color:#333; 
+    font:16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+    background: url(../images/no_youyuan_new.jpg) center top no-repeat #0C010F;
+    background-size: 100%;
+}
+.bottom-box{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height:3rem;
+    width: 100%;
+}
+.btn-box{
+    display: -webkit-flex;
+    display: flex;
+    justify-content:space-around;
+    padding:0.7rem 0 0 0; 
+}
+.common-style{
+    width: 45%;
+    height:0.75rem;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height:0.75rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+.find-boyfriend{
+    border: 1px solid #AF00FF;
+    color:#AF00FF;
+}
+.find-girlfriend{
+    border: 1px solid #EA14B0;
+    color:#EA14B0;
+}
+.text-box{
+    padding: 8% 0 0 0;
+    text-align: center;
+    color: #999;
+    font-size: 0.25rem;
+}
+.log-in{
+    color:#AF00FF;
+}
